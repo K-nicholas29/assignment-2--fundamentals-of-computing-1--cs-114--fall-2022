@@ -4,9 +4,17 @@ public class Assignment2 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please enter a number");
+        System.out.println("Please enter a number: ");
         int numero = scanner.nextInt();
 
-        
+        System.out.println("Enter a symbol to use: ");
+        String cymbal = scanner.next();
+
+        for(int i = 0; i < 4; i++) {
+            System.out.println(cymbal);
+        }
+
+
+        scanner.close();
     }
 }
