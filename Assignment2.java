@@ -6,11 +6,13 @@ public class Assignment2 {
 
         System.out.println("Please enter a number: ");
         int numero = scanner.nextInt();
+        //User inputs a number to be used for the diamond
 
         System.out.println("Enter a symbol to use: ");
         String cymbal = scanner.next();
+        //User inputs whatever symbol they want to be used for the diamond
 
-        for(int i = 0; i < 4; i++) {
+        for(int i = 1; i < numero; i++) {
             System.out.println(cymbal);
         }
 
