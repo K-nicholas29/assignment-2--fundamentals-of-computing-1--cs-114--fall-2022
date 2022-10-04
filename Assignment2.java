@@ -15,7 +15,7 @@ public class Assignment2 {
         int chicken = 4;
         for(int i = 1; i<=chicken; i++) {
             for(int j = 1; j<=i; j++) {
-                System.out.println(cymbal); 
+                System.out.print("* "); 
             }
             System.out.println();
         }
