@@ -12,7 +12,7 @@ public class Assignment2 {
         String cymbal = scanner.next();
         //User inputs whatever symbol they want to be used for the diamond
         System.out.println();
-        
+        //Creating a space between the symbol and the beginning of the diamond
         for(int i = 1; i<=numero; i++) {
             for(int j = 1; j<=i; j++) {
                 System.out.print(cymbal); 
