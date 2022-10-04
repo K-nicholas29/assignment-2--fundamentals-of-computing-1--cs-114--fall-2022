@@ -12,13 +12,6 @@ public class Assignment2 {
         String cymbal = scanner.next();
         //User inputs whatever symbol they want to be used for the diamond
 
-        for(int i = 1; i <= numero; i++) {
-        //This for loop takes care of the number of rows
-            
-            System.out.println(cymbal);
-        }
-
-
         scanner.close();
     }
 }
