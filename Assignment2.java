@@ -4,21 +4,21 @@ public class Assignment2 {
 
         Scanner scanner = new Scanner(System.in);
 
-        // System.out.println("Please enter a number: ");
-        // int numero = scanner.nextInt();
+        System.out.println("Please enter a number: ");
+        int numero = scanner.nextInt();
         //User inputs a number to be used for the diamond
 
         // System.out.println("Enter a symbol to use: ");
         // String cymbal = scanner.next();
         //User inputs whatever symbol they want to be used for the diamond
         
-        int chicken = 4;
-        for(int i = 1; i<=chicken; i++) {
+        for(int i = 1; i<=numero; i++) {
             for(int j = 1; j<=i; j++) {
                 System.out.print("* "); 
             }
             System.out.println();
         }
+        //This code is for the first right triangle that makes up a diamond
 
         scanner.close();
     }
