@@ -9,7 +9,7 @@ public class Assignment2 {
         //User inputs a number to be used for the diamond
 
         System.out.println("Enter a symbol to use: ");
-        Character cymbal = scanner.next();
+        String cymbal = scanner.next();
         //User inputs whatever symbol they want to be used for the diamond
         
         for(int i = 1; i<=numero; i++) {
