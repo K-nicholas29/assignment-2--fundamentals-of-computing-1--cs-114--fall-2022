@@ -18,10 +18,10 @@ public class Assignment2 {
             for(int j = 1; j<=i; j++) {
                 System.out.print(cymbal); 
             }
-            for(int k = 1; k<i; k++){
+            for(int j = 1; j<i; j++) {
                 System.out.print(cymbal);
             }
-            for(int l = 1; l<=i; l++){
+            for(int j = 1; j<=i; j++) {
                 System.out.println(cymbal);
             }
             System.out.println();
