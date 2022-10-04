@@ -26,7 +26,8 @@ public class Assignment2 {
             }
             System.out.println();
         }
-        //This code is for the top half of the diamond
+        //This code is for the top half of the diamond. I think.
+        //If I sort of reverse this will I get the bottom half?
 
         scanner.close();
     }
