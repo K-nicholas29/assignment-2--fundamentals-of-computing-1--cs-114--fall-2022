@@ -16,13 +16,13 @@ public class Assignment2 {
         
         for(int i = 1; i<=numero; i++) {
             for(int j = 1; j<=i; j++) {
-                System.out.print(cymbal); 
+                System.out.print(" "); 
             }
             for(int j = 1; j<i; j++) {
                 System.out.print(cymbal);
             }
             for(int j = 1; j<=i; j++) {
-                System.out.println(cymbal);
+                System.out.print(cymbal);
             }
             System.out.println();
         }
