@@ -11,6 +11,7 @@ public class Assignment2 {
         System.out.println("Enter a symbol to use: ");
         String cymbal = scanner.next();
         //User inputs whatever symbol they want to be used for the diamond
+        System.out.println();
         
         for(int i = 1; i<=numero; i++) {
             for(int j = 1; j<=i; j++) {
