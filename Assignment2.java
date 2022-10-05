@@ -39,8 +39,11 @@ public class Assignment2 {
             }
             System.out.println();
         }
-        //This code is for the top half of the diamond. I think.
-        //If I sort of reverse this will I get the bottom half?
+        /*
+        Prints out a diamond shape
+        However this prints out the user input's number as rows to and from the middle.
+        If the user inputs 3, there will be 3 rows to the middle, 
+        a separate section, and then 3 rows to the bottom*/
  
         scanner.close();
     }
