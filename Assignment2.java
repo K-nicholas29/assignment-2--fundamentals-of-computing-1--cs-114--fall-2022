@@ -29,7 +29,7 @@ public class Assignment2 {
         }
         //Prints out full right side of a diamond
 
-        for(int i = 0; k<=Userinputnumero; i++) {
+        for(int i = 0; i<=Userinputnumero; i++) {
             for(int j = 0; j<i; j++) {
                 System.out.print(cymbal);
             }
