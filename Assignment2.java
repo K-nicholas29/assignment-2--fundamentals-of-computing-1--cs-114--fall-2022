@@ -28,7 +28,6 @@ public class Assignment2 {
             System.out.println();
         }
         //Prints out full right side of a diamond
-
         scanner.close();
     }
 }
