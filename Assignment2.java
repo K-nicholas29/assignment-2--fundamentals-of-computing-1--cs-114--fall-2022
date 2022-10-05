@@ -5,7 +5,7 @@ public class Assignment2 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Please enter a number: ");
-        int numero = scanner.nextInt();
+        int Userinputnumero = scanner.nextInt();
         //User inputs a number to be used for the diamond
 
         System.out.println("Enter a symbol to use: ");
@@ -14,7 +14,7 @@ public class Assignment2 {
         System.out.println();
         //Creating a space between the symbol and the beginning of the diamond
         
-        for(int i = 0; i<numero; i++) {
+        for(int i = 0; i<Userinputnumero; i++) {
             for(int j = i; j<=numero; j++) {
                 System.out.print(" "); 
             }
@@ -27,14 +27,14 @@ public class Assignment2 {
             System.out.println();
         }
 
-        for(int k = 0; k<=i; k++) {
-            for(int j = 1; j<=k; j++) {
+        for(int k = 0; k<=Userinputnumero; k--) {
+            for(int j = 1; j<=k; j--) {
                 System.out.print(" ");
             }
-            for(int j = k; j<=numero; j++) {
+            for(int j = k; j<=Userinputnumero; j--) {
                 System.out.print(cymbal);
             }
-            for(int j = k; j<=numero; j++) {
+            for(int j = k; j<=Userinputnumero; j--) {
                 System.out.print(cymbal);
             }
             System.out.println();
