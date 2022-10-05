@@ -27,9 +27,20 @@ public class Assignment2 {
             }
             System.out.println();
         }
-        //This code is for the top half of the diamond. I think.
-        //If I sort of reverse this will I get the bottom half?
+        //Prints out full right side of a diamond
 
+        for(int k = 0; k<=Userinputnumero; k++) {
+            for(int l = 0; l<k; l++) {
+                System.out.print(cymbal);
+            }
+        }
+
+        for(int k = Userinputnumero - 1; k>0; k--) {
+            for(int l = 0; l<k; l++) {
+                System.out.print(cymbal);
+            }
+            System.out.println();
+        }
         scanner.close();
     }
 }
