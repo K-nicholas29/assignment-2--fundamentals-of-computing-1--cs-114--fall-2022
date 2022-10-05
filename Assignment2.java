@@ -44,7 +44,6 @@ public class Assignment2 {
         However this prints out the user input's number as rows to and from the middle.
         If the user inputs 3, there will be 3 rows to the middle, 
         a separate section, and then 3 rows to the bottom*/
- 
         scanner.close();
     }
 }
