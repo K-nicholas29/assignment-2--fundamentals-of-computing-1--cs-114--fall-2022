@@ -28,7 +28,7 @@ public class Assignment2 {
         }
  
         for(int k = 0; k<=Userinputnumero; k++) {
-            for(int j = 1; j<k; j++) {
+            for(int j = 1; j<=k; j++) {
                 System.out.print(" ");
             }
             for(int j = k; j<Userinputnumero; j++) {
