@@ -27,14 +27,14 @@ public class Assignment2 {
             System.out.println();
         }
 
-        for(int i = 1; i<=numero; i++) {
-            for(int j = 1; j<=i; j++) {
+        for(int k = 1; k<=numero; k++) {
+            for(int j = 1; j<=k; j++) {
                 System.out.println(" ");
             }
-            for(int j = i; j<=numero; j++) {
+            for(int j = k; j<=numero; j++) {
                 System.out.println(cymbal);
             }
-            for(int j = i; j<=numero; j++) {
+            for(int j = k; j<=numero; j++) {
                 System.out.println(cymbal);
             }
             System.out.println();
