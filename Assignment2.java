@@ -18,7 +18,7 @@ public class Assignment2 {
             for(int j = i; j<=numero; j++) {
                 System.out.print(" "); 
             }
-            for(int j = 1; j< i; j++) {
+            for(int j = 1; j<=i; j++) {
                 System.out.print(cymbal);
             }
             for(int j = 1; j<=i; j++) {
@@ -28,13 +28,13 @@ public class Assignment2 {
         }
 
         for(int i = 1; i<=numero; i++) {
-            for(int k = 1; k<=i; k++) {
+            for(int j = 1; j<=i; j++) {
                 System.out.println(" ");
             }
-            for(int k = i; k<numero; k++) {
+            for(int j = i; j<=numero; j++) {
                 System.out.println(cymbal);
             }
-            for(int k = i; k<=numero; k++) {
+            for(int j = i; j<=numero; j++) {
                 System.out.println(cymbal);
             }
             System.out.println();
