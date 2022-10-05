@@ -14,7 +14,7 @@ public class Assignment2 {
         System.out.println();
         //Creating a space between the symbol and the beginning of the diamond
         
-        for(int i = 1; i<=Userinputnumero; i++) {
+        for(int i = 2; i<=Userinputnumero; i++) {
             for(int j = i; j<=Userinputnumero; j++) {
                 System.out.print(" ");
             }
@@ -27,7 +27,7 @@ public class Assignment2 {
             System.out.println();
         }
  
-        for(int k = 2; k<=Userinputnumero; k++) {
+        for(int k = 3; k<=Userinputnumero; k++) {
             for(int j = 0; j<=k; j++) {
                 System.out.print(" ");
             }
