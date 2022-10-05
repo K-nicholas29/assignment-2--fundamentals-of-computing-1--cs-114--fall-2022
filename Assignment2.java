@@ -15,27 +15,15 @@ public class Assignment2 {
         //Creating a space between the symbol and the beginning of the diamond
         
         for(int i = 0; i<=Userinputnumero; i++) {
-            for(int j = i; j<=Userinputnumero; j++) {
-                System.out.print(" "); 
-            }
-            for(int j = 1; j<=i; j++) {
-                System.out.print(cymbal);
-            }
-            for(int j = 1; j<=i; j++) {
-                System.out.print(cymbal);
+            for(int j = 0; j<i; j++) {
+                System.out.println(cymbal);
             }
             System.out.println();
         }
 
-        for(int k = 0; k<=Userinputnumero; k--) {
-            for(int j = 1; j<=k; j++) {
-                System.out.print(" ");
-            }
-            for(int j = k; j<=Userinputnumero; j++) {
-                System.out.print(cymbal);
-            }
-            for(int j = k; j<=Userinputnumero; j++) {
-                System.out.print(cymbal);
+        for(int i = Userinputnumero - 1; i>0; i--) {
+            for(int j = 0; j<i; j++) {
+                System.out.println(cymbal);
             }
             System.out.println();
         }
