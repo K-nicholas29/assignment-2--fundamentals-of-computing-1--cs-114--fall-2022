@@ -16,7 +16,7 @@ public class Assignment2 {
         
         for(int i = 1; i<=Userinputnumero; i++) {
             for(int j = 1; j<=i; j++){
-                System.out.println(Userinputsymbol);
+                System.out.print(Userinputsymbol);
             }
             System.out.println();
         }
