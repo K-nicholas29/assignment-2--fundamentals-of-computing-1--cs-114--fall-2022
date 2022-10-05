@@ -29,13 +29,13 @@ public class Assignment2 {
 
         for(int k = 1; k<=numero; k++) {
             for(int j = 1; j<=k; j++) {
-                System.out.println(" ");
+                System.out.print(" ");
             }
             for(int j = k; j<=numero; j++) {
-                System.out.println(cymbal);
+                System.out.print(cymbal);
             }
             for(int j = k; j<=numero; j++) {
-                System.out.println(cymbal);
+                System.out.print(cymbal);
             }
             System.out.println();
         }
