@@ -18,10 +18,10 @@ public class Assignment2 {
             for(int j = i; j<=Userinputnumero; j++) {
                 System.out.print(" "); 
             }
-            for(int j = 1; j<=i; j++) {
+            for(int j = 0; j<=i; j++) {
                 System.out.print(cymbal);
             }
-            for(int j = 1; j<=i; j++) {
+            for(int j = 0; j<=i; j++) {
                 System.out.print(cymbal);
             }
             System.out.println();
