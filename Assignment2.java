@@ -16,14 +16,14 @@ public class Assignment2 {
         
         for(int i = 0; i<=Userinputnumero; i++) {
             for(int j = 0; j<i; j++) {
-                System.out.println(cymbal);
+                System.out.print(cymbal);
             }
             System.out.println();
         }
 
         for(int i = Userinputnumero - 1; i>0; i--) {
             for(int j = 0; j<i; j++) {
-                System.out.println(cymbal);
+                System.out.print(cymbal);
             }
             System.out.println();
         }
