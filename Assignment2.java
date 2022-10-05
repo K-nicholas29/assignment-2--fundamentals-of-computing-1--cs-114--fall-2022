@@ -26,6 +26,19 @@ public class Assignment2 {
             }
             System.out.println();
         }
+
+        for(int i = i; i<=numero; i++) {
+            for(int k = 1; k<=i; k++) {
+                System.out.println(" ");
+            }
+            for(int k = i; k< numero; k++) {
+                System.out.println(cymbal);
+            }
+            for(int k = i; k<=numero; k++) {
+                System.out.println(cymbal);
+            }
+            System.out.println();
+        }
         //This code is for the top half of the diamond. I think.
         //If I sort of reverse this will I get the bottom half?
 
